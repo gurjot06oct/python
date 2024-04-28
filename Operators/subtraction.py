@@ -37,7 +37,7 @@ list_value_2 = [3, 4]
 # All combinations of subtraction operators
 combinations = [
     (int_value_1 - int_value_2),
-    # (int_value_1 - bool_value_1), # Subtraction operation is not defined for integer and boolean
+    (int_value_1 - bool_value_1),
     (int_value_1 - complex_value_1),
     (int_value_1 - float_value_1),
     # (int_value_1 - tuple_value), # Subtraction operation is not defined for integer and tuple
@@ -46,6 +46,8 @@ combinations = [
     # (int_value_1 - set_value), # Subtraction operation is not defined for integer and set
     # (int_value_1 - list_value), # Subtraction operation is not defined for integer and list
     
+
+    (bool_value_1 - int_value_1),
     (bool_value_1 - bool_value_2),
     (bool_value_1 - complex_value_1),
     (bool_value_1 - float_value_1),
@@ -55,6 +57,10 @@ combinations = [
     # (bool_value_1 - set_value), # Subtraction operation is not defined for boolean and set
     # (bool_value_1 - list_value), # Subtraction operation is not defined for boolean and list
     
+
+
+    (complex_value_1 - int_value_1),
+    (complex_value_1 - bool_value_2),
     (complex_value_1 - complex_value_2),
     (complex_value_1 - float_value_1),
     # (complex_value_1 - tuple_value), # Subtraction operation is not defined for complex and tuple
@@ -63,6 +69,10 @@ combinations = [
     # (complex_value_1 - set_value), # Subtraction operation is not defined for complex and set
     # (complex_value_1 - list_value), # Subtraction operation is not defined for complex and list
     
+
+    (float_value_1 - int_value_1),
+    (float_value_1 - bool_value_2),
+    (float_value_1 - complex_value_2),
     (float_value_1 - float_value_2),
     # (float_value_1 - tuple_value), # Subtraction operation is not defined for float and tuple
     # (float_value_1 - string_value), # Subtraction operation is not defined for float and string
