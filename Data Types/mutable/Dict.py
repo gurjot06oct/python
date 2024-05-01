@@ -80,9 +80,9 @@ for val in square2.values():
 # 16
 # 25
 
-# pop()
-print(square2.pop(1))
-# Output: 1
+# pop(key) -> value
+print("pop value",square2.pop(5))
+
 
 # pop item
 print(square2.popitem())
