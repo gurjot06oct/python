@@ -25,29 +25,29 @@ import os
 #    - Writing to the file will append data to the end without overwriting existing content.
 #    - It's useful when you want to open a file for both reading and writing, and you want to append data to the end of the file.
 
-# # Reading from a File (r+ mode)
-# with open("example.txt", "r+") as file:
-#     # Here pointer is at 0 and writing will overwrite the file
-#     file.write("Hella ")
-#     # Read the file after 'Hella'
-#     content = file.read() # ", World! ...."
-#     print("File Content (r+ mode):")
-#     print(content)
+# Reading from a File (r+ mode)
+with open("example.txt", "r+") as file:
+    # Here pointer is at 0 and writing will overwrite the file
+    file.write("Hella ")
+    # Read the file after 'Hella'
+    content = file.read() # ", World! ...."
+    print("File Content (r+ mode):")
+    print(content)
 
-#     # Seek to the beginning and overwrite the file content
-#     file.seek(0)
-#     file.write("Overwriting the content...\n")
+    # Seek to the beginning and overwrite the file content
+    file.seek(0)
+    file.write("Overwriting the content...\n")
 
-#     # Seek to the end and append new content
-#     file.seek(0, os.SEEK_END)
-#     file.write("Appending new content...\n")
+    # Seek to the end and append new content
+    file.seek(0, os.SEEK_END)
+    file.write("Appending new content...\n")
 
-# # Example using w+ mode
-# with open('example.txt', 'w+') as f:
-#     data = f.read()  # Read data from the file
-#     # w+ truncates the File (i.e. deletes the data) therefore data is empty
-#     print("Empty Data",data)
-#     f.write('New Data')  # Write data to the file
+# Example using w+ mode
+with open('example.txt', 'w+') as f:
+    data = f.read()  # Read data from the file
+    # w+ truncates the File (i.e. deletes the data) therefore data is empty
+    print("Empty Data",data)
+    f.write('New Data')  # Write data to the file
 
 
 
