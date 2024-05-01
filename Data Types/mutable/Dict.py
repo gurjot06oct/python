@@ -81,8 +81,8 @@ for val in square2.values():
 # 25
 
 # pop(key) -> value (key is required)
-print("pop value",square2.pop(4))
-
+# pop removes the key and its value
+print(square2.pop(4))
 
 # pop item
 print(square2.popitem())
