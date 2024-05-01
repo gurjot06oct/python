@@ -8,3 +8,6 @@ if len(sys.argv) < 2:
 # The first command-line argument (sys.argv[0]) is the script name, so we start from index 1
 for i, arg in enumerate(sys.argv[1:]):
     print(f"Argument {i}: {arg}")
+
+
+# library - getopt

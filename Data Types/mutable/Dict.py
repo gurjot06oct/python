@@ -80,8 +80,8 @@ for val in square2.values():
 # 16
 # 25
 
-# pop(key) -> value
-print("pop value",square2.pop(5))
+# pop(key) -> value key is required
+print("pop value",square2.pop(4))
 
 
 # pop item
@@ -97,8 +97,8 @@ for x in reversed(square2.keys()):
 # 2
 
 # setdefault(key[,default]) 
-square2.setdefault(1,2)
-print(square2)
+# It sets the key if not present to default Value.default=None
+square2.setdefault(1)
 # Output: {2: 4, 3: 9, 4: 16, 1: 2}
 
 # update (like creating)

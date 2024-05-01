@@ -73,8 +73,10 @@ combinations = [
     # (string_value + list_value),
     
     # (dict_value + dict_value),
+    # (dict_value+ list_value),
     
     # (set_value + set_value),
+    # set_value + list_value,
     
     (list_value + list_value)
 ]
