@@ -1,2 +1,0 @@
-Hello World!This is the Appended Line.
-f.write() in append mode will only be written at the end even if you seek to 0
