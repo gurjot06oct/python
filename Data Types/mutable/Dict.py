@@ -80,7 +80,7 @@ for val in square2.values():
 # 16
 # 25
 
-# pop(key) -> value key is required
+# pop(key) -> value (key is required)
 print("pop value",square2.pop(4))
 
 
