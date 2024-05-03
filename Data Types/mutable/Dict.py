@@ -83,6 +83,8 @@ for val in square2.values():
 # pop(key) -> value (key is required)
 # pop removes the key and its value
 print(square2.pop(4))
+# Output - 16
+
 
 # pop item
 print(square2.popitem())
@@ -92,19 +94,23 @@ print(square2.popitem())
 for x in reversed(square2.keys()):
     print(x)
 # Output: 
-# 4
 # 3
 # 2
+# 1
+
+print(square2)
+# {1: 1, 2: 4, 3: 9}
 
 # setdefault(key[,default]) 
-# It sets the key if not present to default Value.default=None
-square2.setdefault(1)
+# It sets the key if not present to default Value.
+# default=None bydefault
+print(square2.setdefault(2))
 # Output: {2: 4, 3: 9, 4: 16, 1: 2}
 
 # update (like creating)
 square2.update({2:8})
 print(square2)
-# Output: {2: 4, 3: 9, 4: 16, 1: 2}
+# Output: {2: 8, 3: 9, 4: 16, 1: 1}
 
 # clearning dict
 square_dict.clear()
