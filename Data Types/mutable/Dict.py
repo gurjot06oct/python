@@ -101,7 +101,7 @@ for x in reversed(square2.keys()):
 print(square2)
 # {1: 1, 2: 4, 3: 9}
 
-# setdefault(key[,default]) 
+# setdefault(key[,default]) -> value
 # It sets the key if not present to default Value.
 # default=None bydefault
 print(square2.setdefault(2))
