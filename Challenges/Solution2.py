@@ -1,6 +1,6 @@
 import copy
 k=int(input("Dimensions: "))
-array2d = [[k*i+j+1 for j in range(k)] for i in range(k)]
+array2d = [list(map(int, input().split())) for _ in range(k)]
 RotatedArray=[]
 n = int(input("Rotation Index:"))
 move = -1 if n<0 else (1 if n>0 else 0)
@@ -8,7 +8,7 @@ dir=1
 if n > 0:
     dir=0
 if n==0:
-    print(array2d)
+   print(array2d)
 else:
     RotatedArray=[[(i,j) for j in range(k)] for i in range(k)]
     layers= k//2 if k%2==0 else (k-1)//2
