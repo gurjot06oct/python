@@ -8,4 +8,5 @@ print(complex1.conjugate())
 print(complex1.imag)
 print(complex1.real)
 
-
+# complex has no default typecode but %s or %r can be used
+print("%s".format(complex1))
