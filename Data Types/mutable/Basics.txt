@@ -1,0 +1,32 @@
+i. List is an ordered data structure because its items can be accessed by indexing.
+ii. Tuple is an ordered data structure because its items can be accessed by indexing.
+iii. Set is an unordered data structure because its items cannot be accessed by indexing.
+iv. Dictionary is an unordered data structure because its items cannot be accessed by indexing.
+
+Sure, here's a brief overview of the basics of each data structure:
+
+1. **List**:
+   - Ordered collection of items.
+   - Mutable, meaning you can change, add, and remove elements after the list is created.
+   - Elements are indexed, allowing for easy access and manipulation.
+   - Denoted by square brackets `[]`.
+
+2. **Tuple**:
+   - Similar to lists, but immutable, meaning once created, elements cannot be changed.
+   - Ordered collection of items.
+   - Elements are indexed, like lists.
+   - Denoted by parentheses `()`.
+
+3. **Set**:
+   - Unordered collection of unique elements.
+   - Does not allow duplicate elements.
+   - Mutable, meaning you can add and remove elements.
+   - Does not support indexing.
+   - Denoted by curly braces `{}`.
+
+4. **Dictionary**:
+   - Collection of key-value pairs.
+   - Unordered, but items are accessed by their keys.
+   - Keys must be unique and immutable (like tuples), while values can be mutable.
+   - Mutable, meaning you can add, remove, or change key-value pairs.
+   - Denoted by curly braces `{}`, with key-value pairs separated by colons `:` and items separated by commas `,`.

@@ -125,9 +125,6 @@ typecastings = [
     list(set_value),
     
 
-
-
-    
     # List to other types
     bool(list_value),
     # No typecasting from list to complex as complex(list_value) is not defined
