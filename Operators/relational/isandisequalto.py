@@ -1,5 +1,5 @@
 # In Python, `==` and `is` are both used to compare objects, but they serve different purposes and behave differently.
-
+# Optimization range: [-5,256]
 ### `==` Operator
 	# - **Purpose:** The `==` operator is used to check if the values of two objects are equal.
 	# - **Behavior:** It compares the values of the objects to see if they are equivalent. This means that even if two objects are distinct in memory, if their contents are the same, `==` will return `True`.
@@ -42,7 +42,8 @@ print(x is y)  # Output: True, because Python reuses small integer objects.
 
 x = 257
 y = 257
-print(x is y)  # Output: False, because these are distinct objects in memory.
+print(x is y)  # Expected Output: False, because these are distinct objects in memory.
+# Real Output : True
 
 a = 'hello'
 b = 'hello'
@@ -50,7 +51,12 @@ print(a is b)  # Output: True, because of string interning.
 
 a = 'hello world'
 b = 'hello world'
-print(a is b)  # Output: False, as these are distinct string objects.
+print(a is b)  # Expected Output: False, as these are distinct string objects.
+# Real Output: True
+
+
+# Refer to the reason for these unexpected Outputs
+
 
 #### Mutable Objects
 
