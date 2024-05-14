@@ -16,12 +16,13 @@ def outer_function():
         # Accessing global variable
         print("Inside inner_function, global_var:", global_var)
 
-        # Accessing enclosing scope variable
-        print("Inside inner_function, enclosing_var:", enclosing_var)
 
         # Modifying enclosing scope variable using nonlocal keyword
         nonlocal enclosing_var
         enclosing_var = enclosing_var + 1
+
+        # Accessing enclosing scope variable
+        print("Inside inner_function, enclosing_var:", enclosing_var)
 
         # Accessing local variable
         print("Inside inner_function, local_var:", local_var)
