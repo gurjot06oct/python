@@ -48,7 +48,7 @@ print(square2,id(square2))
 print(square_dict,id(square_dict))
 
 
-# get(key[, default=None])
+# get(key[, default])
 print("Value:",square2.get(2))
 # Output: 4
 
@@ -109,12 +109,12 @@ print(square2)
 # setdefault(key[,default=None]) -> value
 # It sets the key if not present to default Value.
 print(square2.setdefault(2))
-# Output: {2: 4, 3: 9, 4: 16, 1: 2}
+# Output: 4
 
 # update (like creating)
 square2.update({2:8})
 print(square2)
-# Output: {2: 8, 3: 9, 4: 16, 1: 1}
+# Output: {1: 1, 2: 8, 3: 9}
 
 # clearning dict
 square_dict.clear()
