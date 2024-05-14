@@ -86,7 +86,7 @@ print(buffer_info)  # Output: (140507679273152, 8)
 # Typecodes
 print(array.typecodes)  # Output: 'bBuhHiIlLqQfd'
 
-# Itemsize
+# Itemsize - ByteSize of one array item
 print(my_array.itemsize)  # Output: 4
 
 

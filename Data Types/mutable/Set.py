@@ -1,10 +1,19 @@
 # Creating an empty set
 my_set = set({})
 
-
 # Create a set
 my_set = {1, 2, 3, 4, 5}
 print(my_set)
+
+
+
+# Accessing the elements
+# By for loop
+for i in my_set:
+    print(i)
+# By unpacking
+print(*my_set)
+
 
 
 # add(): Adds an element to the set
