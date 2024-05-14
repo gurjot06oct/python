@@ -6,5 +6,6 @@
 
 
 from my_package import *
-
-random_password_generator()
+random_password_generator(7)
+# random_color_generator()
+# throw error, cause not exported  as wilcard  in module1.py
