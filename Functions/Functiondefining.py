@@ -20,8 +20,6 @@ def position_keyword(a, b,*, c=None):
     return a + b
 print(position_keyword(1,b=2))
 
-Output: 21
-
 
 # -------Mixed parameter-------
 def mixed_parameters(x, /, *, y):

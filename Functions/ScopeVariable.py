@@ -9,12 +9,12 @@ def outer_function():
         # Local variable
         local_var = 30
 
-        # Accessing global variable
-        print("Inside inner_function, global_var:", global_var)
-
         # Modifying global variable using global keyword
         global global_var
         global_var = global_var + 1
+
+        # Accessing global variable
+        print("Inside inner_function, global_var:", global_var)
 
         # Accessing enclosing scope variable
         print("Inside inner_function, enclosing_var:", enclosing_var)
