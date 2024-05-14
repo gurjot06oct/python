@@ -8,6 +8,8 @@ print(a)
 txt = "The best things in life are free!"
 print("free" in txt)
 
+# str(): Returns a string
+string_value = str(123)
 
 # concatination
 a = "Hello"

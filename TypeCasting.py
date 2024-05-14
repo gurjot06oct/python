@@ -1,3 +1,8 @@
+# type(): Returns the type of an object
+type_of_object = type('hello')
+
+
+
 # Integer
 int_value = 10
 
