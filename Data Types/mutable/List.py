@@ -112,7 +112,7 @@ original_list.insert(2, 2.5)
 print("insert():", original_list)  # Output: [1, 2, 2.5, 3, 4, 5, 6]
 
 
-# pop(): Removes the element at the specified position
+# pop(index=-1): Removes the element at the specified position
 popped_element = original_list.pop(2)
 print("pop():", popped_element)  # Output: 2.5
 

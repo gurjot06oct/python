@@ -4,7 +4,8 @@
 # Lambda function to add two numbers
 add = lambda x, y: x + y
 print(add(3, 5))  # Output: 8
-
+print(add)  # Output: <function <lambda> at 0x7f7bd1398540>
+print(type(add))  # Output: <class 'function'>
 
 
 # Sorting a list of tuples based on the second element using lambda function

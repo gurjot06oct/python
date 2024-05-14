@@ -38,7 +38,7 @@ print(my_array.index(5))  # Output: 4
 my_array.insert(2, 10)
 print(my_array)  # Output: array('i', [1, 2, 10, 3, 4, 5, 6, 7, 8, 9])
 
-# Pop
+# Pop(index=-1)
 popped_item = my_array.pop()
 print(popped_item)  # Output: 9
 print(my_array)  # Output: array('i', [1, 2, 10, 3, 4, 5, 6, 7, 8])
