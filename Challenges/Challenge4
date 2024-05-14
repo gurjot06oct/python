@@ -1,0 +1,7 @@
+**Problem Statement:**
+
+Given a matrix, the task is to convert it into its row echelon form (REF).
+
+**Output (if not possible):**
+
+"If it's not possible to transform the matrix into row echelon form, print 'Transformation not possible.'"

@@ -5,8 +5,9 @@ absolute_value = abs(-10)
 # aiter(): Returns an Asynchronous iterator object
 # go to extra folder
 
-# all(): Returns True if all elements of an iterable are true
-all_true = all([True, True, True])
+# all(): Returns True if all elements of an iterable are true or empty iterable else false
+all_true = all([True, True, True]) # True
+all_true = all([]) # True
 
 # anext(): Advances the iterator to the next element and returns it
 iter_obj = iter([1, 2, 3])

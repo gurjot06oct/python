@@ -46,7 +46,7 @@ result_bc = True == 2 + 3j
 result_bs = False == "True"
 
 # None vs None
-result_nn = None == None # True
+result_nn = None == None  # True
 
 # Integer vs None
 result_in = 10 == None
@@ -81,12 +81,11 @@ result_bab = bytearray(b"apple") == bytearray(b"banana")
 # Memoryview vs Memoryview
 result_mm = memoryview(b"apple") == memoryview(b"banana")
 
-
 # Ellipsis vs Ellipsis
 result_ee = Ellipsis == Ellipsis
 
 # NotImplemented vs NotImplemented
-result_nn = NotImplemented == NotImplemented
+result_nin = NotImplemented == NotImplemented
 
 # Function vs Function
 def func_a(): pass
@@ -102,3 +101,36 @@ result_lambda = lambda_a == lambda_b
 gen_a = (i for i in range(5))
 gen_b = (i for i in range(5))
 result_gen = gen_a == gen_b
+
+print(result_ii)       # True
+print(result_if)       # False
+print(result_ic)       # False
+print(result_is)       # False
+print(result_ff)       # False
+print(result_fc)       # False
+print(result_fs)       # False
+print(result_cc)       # False
+print(result_cs)       # False
+print(result_ss)       # False
+print(result_bb)       # False
+print(result_bi)       # False
+print(result_bf)       # False
+print(result_bc)       # False
+print(result_bs)       # False
+print(result_nn)       # True
+print(result_in)       # False
+print(result_fn)       # False
+print(result_cn)       # False
+print(result_sn)       # False
+print(result_ll)       # False
+print(result_tt)       # True
+print(result_dd)       # True
+print(result_rr)       # False
+print(result_bb)       # False
+print(result_bab)      # False
+print(result_mm)       # False
+print(result_ee)       # True
+print(result_nin)      # True
+print(result_func)     # False
+print(result_lambda)   # False
+print(result_gen)      # False

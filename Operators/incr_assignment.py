@@ -115,14 +115,3 @@ list_var += set_var
 # set_var += list_var
 # set_var += dict_var
 # set_var += set_var
-
-# Print results
-print("String:", string_var)
-print("Boolean:", bool_var)
-print("Complex:", complex_var)  # Complex numbers cannot be modified in-place with +=
-print("Float:", float_var)
-print("Integer:", int_var)
-print("Tuple:", tuple_var)
-print("List:", list_var)
-print("Dictionary:", dict_var)
-print("Set:", set_var)

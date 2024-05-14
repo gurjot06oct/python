@@ -41,45 +41,91 @@ combinations = [
     (int_value_1 / bool_value_1),
     (int_value_1 / complex_value_1),
     (int_value_1 / float_value_1),
-    # (int_value_1 / tuple_value_1), # Division operation is not defined for integer and tuple
-    # (int_value_1 / string_value_1), # Division operation is not defined for integer and string
-    # (int_value_1 / dict_value_1), # Division operation is not defined for integer and dictionary
-    # (int_value_1 / set_value_1), # Division operation is not defined for integer and set
-    # (int_value_1 / list_value_1), # Division operation is not defined for integer and list
+    # (int_value_1 / tuple_value_1), 
+    # (int_value_1 / string_value_1),
+    # (int_value_1 / dict_value_1),
+    # (int_value_1 / set_value_1),
+    # (int_value_1 / list_value_1),
     
-    (bool_value_2/bool_value_1), 
+    (bool_value_1 / int_value_1), 
+    (bool_value_2 / bool_value_1), 
     (bool_value_1 / complex_value_1), 
     (bool_value_1 / float_value_1),
-    # (bool_value_1 / tuple_value_1), # Division operation is not defined for boolean and tuple
-    # (bool_value_1 / string_value_1), # Division operation is not defined for boolean and string
-    # (bool_value_1 / dict_value_1), # Division operation is not defined for boolean and dictionary
-    # (bool_value_1 / set_value_1), # Division operation is not defined for boolean and set
-    # (bool_value_1 / list_value_1), # Division operation is not defined for boolean and list
+    # (bool_value_1 / tuple_value_1), 
+    # (bool_value_1 / string_value_1), 
+    # (bool_value_1 / dict_value_1), 
+    # (bool_value_1 / set_value_1),
+    # (bool_value_1 / list_value_1),
     
+    (complex_value_1 / int_value_1), 
+    (complex_value_1 / bool_value_1), 
     (complex_value_1 / complex_value_2),
     (complex_value_1 / float_value_1),
-    # (complex_value_1 / tuple_value_1), # Division operation is not defined for complex and tuple
-    # (complex_value_1 / string_value_1), # Division operation is not defined for complex and string
-    # (complex_value_1 / dict_value_1), # Division operation is not defined for complex and dictionary
-    # (complex_value_1 / set_value_1), # Division operation is not defined for complex and set
-    # (complex_value_1 / list_value_1), # Division operation is not defined for complex and list
+    # (complex_value_1 / tuple_value_1), 
+    # (complex_value_1 / string_value_1), 
+    # (complex_value_1 / dict_value_1), 
+    # (complex_value_1 / set_value_1), 
+    # (complex_value_1 / list_value_1),
     
+    (float_value_1 / int_value_1), 
+    (float_value_1 / bool_value_1), 
+    (float_value_1 / complex_value_1),
     (float_value_1 / float_value_2),
-    # (float_value_1 / tuple_value_1), # Division operation is not defined for float and tuple
-    # (float_value_1 / string_value_1), # Division operation is not defined for float and string
-    # (float_value_1 / dict_value_1), # Division operation is not defined for float and dictionary
-    # (float_value_1 / set_value_1), # Division operation is not defined for float and set
-    # (float_value_1 / list_value_1), # Division operation is not defined for float and list
+    # (float_value_1 / tuple_value_1), 
+    # (float_value_1 / string_value_1),
+    # (float_value_1 / dict_value_1),
+    # (float_value_1 / set_value_1),
+    # (float_value_1 / list_value_1),
     
-    # (tuple_value_1 / tuple_value_2), # Division operation is not defined for tuple
+    # (tuple_value_1 / int_value_1), 
+    # (tuple_value_1 / bool_value_1), 
+    # (tuple_value_1 / complex_value_1),
+    # (tuple_value_1 / float_value_2),
+    # (tuple_value_1 / tuple_value_2), 
+    # (tuple_value_1 / string_value_1),
+    # (tuple_value_1 / dict_value_1),
+    # (tuple_value_1 / set_value_1),
+    # (tuple_value_1 / list_value_1),
     
-    # (string_value_1 / string_value_2), # Division operation is not defined for string
+    # (string_value_1 / int_value_1), 
+    # (string_value_1 / bool_value_1), 
+    # (string_value_1 / complex_value_1),
+    # (string_value_1 / float_value_1),
+    # (string_value_1 / tuple_value_1), 
+    # (string_value_1 / string_value_2),
+    # (string_value_1 / dict_value_1),
+    # (string_value_1 / set_value_1),
+    # (string_value_1 / list_value_1),
     
-    # (dict_value_1 / dict_value_2), # Division operation is not defined for dictionary
+    # (dict_value_1 / int_value_1), 
+    # (dict_value_1 / bool_value_1), 
+    # (dict_value_1 / complex_value_1),
+    # (dict_value_1 / float_value_1),
+    # (dict_value_1 / tuple_value_1), 
+    # (dict_value_1 / string_value_1),
+    # (dict_value_1 / dict_value_2),
+    # (dict_value_1 / set_value_1),
+    # (dict_value_1 / list_value_1),
+
+    # (set_value_1 / int_value_1), 
+    # (set_value_1 / bool_value_1), 
+    # (set_value_1 / complex_value_1),
+    # (set_value_1 / float_value_1),
+    # (set_value_1 / tuple_value_1), 
+    # (set_value_1 / string_value_1),
+    # (set_value_1 / dict_value_1),
+    # (set_value_1 / set_value_2),
+    # (set_value_1 / list_value_1),
     
-    # (set_value_1 / set_value_2), # Division operation is not defined for set
-    
-    # (list_value_1 / list_value_2) # Division operation is not defined for list
+    # (list_value_1 / int_value_1), 
+    # (list_value_1 / bool_value_1), 
+    # (list_value_1 / complex_value_1),
+    # (list_value_1 / float_value_1),
+    # (list_value_1 / tuple_value_1), 
+    # (list_value_1 / string_value_1),
+    # (list_value_1 / dict_value_1),
+    # (list_value_1 / set_value_1),
+    # (list_value_1 / list_value_2),
 ]
 
 # Printing the combinations

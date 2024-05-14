@@ -5,13 +5,18 @@ my_dict = {"name": "John", "age": 30}
 # Using dict() constructor
 my_dict = dict(name="John", age=30)
 
+
+
 # Using fromkeys
 keys = ['name', 'age', 'city']
 default_value = 'unknown'
-
 # Create a dictionary with specified keys and default value
 my_dict = dict.fromkeys(keys, default_value)
-print(my_dict)
+print(my_dict) # {'name': 'unknown', 'age': 'unknown', 'city': 'unknown'}
+# fromkeys can only be used with dict class but not the object
+my_dict.fromkeys(["a","b","c"],default_value)
+print(my_dict) # {'name': 'unknown', 'age': 'unknown', 'city': 'unknown'}
+
 
 
 # access elements
