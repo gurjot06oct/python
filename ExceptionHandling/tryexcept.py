@@ -10,7 +10,7 @@ finally:
     # finally block always run no matter what
     print("The End")
 
-# example of finally
+# Example of finally
 def foo():
     try: 
         return 1
