@@ -51,15 +51,16 @@ print("issubset():", is_subset)
 is_superset = original_set.issuperset(other_set)
 print("issuperset():", is_superset)
 
-# pop(): Removes an element from the set
+# pop() -> val: Removes an element from the set
 popped_element = copied_set.pop()
 print("pop():", popped_element)
 
-# remove(): Removes the specified element
+# remove() -> None: Removes the specified element
 copied_set.remove(3)
 print("remove():", copied_set)
 
-# symmetric_difference(): Returns a set with the symmetric differences of two sets
+# symmetric_difference(): Returns a set with the symmetric differences of two sets - Delta
+print(original_set,other_set)
 symmetric_difference_set = original_set.symmetric_difference(other_set)
 print("symmetric_difference():", symmetric_difference_set)
 

@@ -11,7 +11,7 @@ print("\u03A9")
 integer = 10
 
 # Floating-point
-float_number = 3.14159
+float_number = 3.144
 
 # Binary
 binary_number = 10
@@ -27,18 +27,6 @@ hex_upper = 255
 
 # String
 string = "hello"
-
-# Minimum width
-string_min_width = "hi"
-
-# Left-aligned
-string_left_aligned = "hi"
-
-# Centered
-string_centered = "hi"
-
-# Right-aligned
-string_right_aligned = "hello"
 
 # Character
 char = "a"
@@ -60,7 +48,7 @@ oct_prefix = 10
 
 
 # Using str.format() method
-formatted_string_1 = "Integer: {0}\nFloat: {1:.2f}\nBinary: {2:08b}\nOctal: {3:o}\nLowercase Hex: {4:x}\nUppercase Hex: {5:X}\nString: {6}\nMinimum Width: {7:>5}\nLeft Aligned: {8:<5}\nCentered: {9:^5}\nRight Aligned: {10:>10}\nCharacter: {11}\nPercent: {12:.2f}%\nRepr: {13!r}\nStr: {14!s}\nPointer: {15:#x}\nHex with Prefix: {16:#x}\nOctal with Prefix: {17:#o}".format(
+formatted_string_1 = "Integer: {0: d}\nFloat: {1:.2f}\nBinary: {2:08b}\nOctal: {3:o}\nLowercase Hex: {4:x}\nUppercase Hex: {5:X}\nString: {6}\nMinimum Width: {7:5} is Left Aligned by Default\nLeft Aligned: {8:<5}\nCentered: {9:^5}\nRight Aligned: {10:>10}\nCharacter: {11}\nPercent: {12:.2f}%\nRepr: {13!r}\nStr: {14!s}\nPointer: {15:#x}\nHex with Prefix: {16:#x}\nOctal with Prefix: {17:#o}".format(
     integer,
     float_number,
     binary_number,
@@ -68,10 +56,10 @@ formatted_string_1 = "Integer: {0}\nFloat: {1:.2f}\nBinary: {2:08b}\nOctal: {3:o
     hex_lower,
     hex_upper,
     string,
-    string_min_width,
-    string_left_aligned,
-    string_centered,
-    string_right_aligned,
+    string,
+    string,
+    string,
+    string,
     char,
     percent,
     obj,
@@ -82,7 +70,7 @@ formatted_string_1 = "Integer: {0}\nFloat: {1:.2f}\nBinary: {2:08b}\nOctal: {3:o
 )
 
 # Using f-strings
-formatted_string_2 = f"Integer: {integer}\nFloat: {float_number:.2f}\nBinary: {binary_number:08b}\nOctal: {octal_number:o}\nLowercase Hex: {hex_lower:x}\nUppercase Hex: {hex_upper:X}\nString: {string}\nMinimum Width: {string_min_width:>5}\nLeft Aligned: {string_left_aligned:<5}\nCentered: {string_centered:^5}\nRight Aligned: {string_right_aligned:>10}\nCharacter: {char}\nPercent: {percent:.2f}%\nRepr: {obj!r}\Str: {obj!s}\nPointer: {pointer:#x}\nHex with Prefix: {hex_prefix:#x}\nOctal with Prefix: {oct_prefix:#o}"
+formatted_string_2 = f"Integer: {integer}\nFloat: {float_number:.2f}\nBinary: {binary_number:08b}\nOctal: {octal_number:o}\nLowercase Hex: {hex_lower:x}\nUppercase Hex: {hex_upper:X}\nString: {string}\nMinimum Width: {string:>5}\nLeft Aligned: {string:<5}\nCentered: {string:^5}\nRight Aligned: {string:>10}\nCharacter: {char}\nPercent: {percent:.2f}%\nRepr: {obj!r}\Str: {obj!s}\nPointer: {pointer:#x}\nHex with Prefix: {hex_prefix:#x}\nOctal with Prefix: {oct_prefix:#o}"
 
 # Using % method
 formatted_string_3 = (
@@ -94,8 +82,8 @@ formatted_string_3 = (
         hex_lower,
         hex_upper,
         string,
-        string_min_width,
-        string_left_aligned,
+        string,
+        string,
         char,
         percent,
         obj,

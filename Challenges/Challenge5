@@ -20,7 +20,7 @@ Write a Python program that generates the Fibonacci series up to the n-th elemen
 
 ### Output:
 
-- A list containing the first `n` elements of the Fibonacci series.
+- A list containing the first `n+1` elements of the Fibonacci series.
 
 ### Example:
 

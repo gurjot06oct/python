@@ -83,8 +83,8 @@ combinations = [
     
     # (dict_value_1 - dict_value_2),
     # (dict_value_1 - set_value_1),
-    # (dict_value_1 - list_value_1_1),
-    # (set_value_1 - set_value_1),
+    # (dict_value_1 - list_value_1),
+    (set_value_1 - set_value_2),
     # (set_value_1 - list_value_1),
     
     # (list_value_1 - list_value_2)
@@ -92,4 +92,4 @@ combinations = [
 
 # Printing the combinations
 for index, result in enumerate(combinations):
-    print(f"Combination {index - 1}: {result}")
+    print(f"Combination {index}: {result}")

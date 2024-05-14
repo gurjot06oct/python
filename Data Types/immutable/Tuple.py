@@ -34,8 +34,9 @@ print(tup[1])   #1
 for i in tup:
     print(i)
 
-# count elements
+# Count elements
 print(tup.count(1))
 
-# find indexof
+# Find indexof
+# .index(value,[start,[stop]])
 print(tup.index(5))

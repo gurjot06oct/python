@@ -48,8 +48,8 @@ print(square2,id(square2))
 print(square_dict,id(square_dict))
 
 
-# get(key[, default])
-print(square2.get(2,None))
+# get(key[, default=None])
+print("Value:",square2.get(2))
 # Output: 4
 
 # items()
@@ -106,9 +106,8 @@ for x in reversed(square2.keys()):
 print(square2)
 # {1: 1, 2: 4, 3: 9}
 
-# setdefault(key[,default]) -> value
+# setdefault(key[,default=None]) -> value
 # It sets the key if not present to default Value.
-# default=None bydefault
 print(square2.setdefault(2))
 # Output: {2: 4, 3: 9, 4: 16, 1: 2}
 
