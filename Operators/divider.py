@@ -128,10 +128,6 @@ combinations = [
     # (list_value_1 / list_value_2),
 ]
 
-# Printing the combinations
-for index, result in enumerate(combinations):
-    print(f"Combination division {index + 1}: {result}")
-
 
 # All combinations of floor division operators
 combinations = [
@@ -147,10 +143,6 @@ combinations = [
     # Float // Float -> Float
     (float_value_1 // float_value_2)
 ]
-
-# Printing the combinations
-for index, result in enumerate(combinations):
-    print(f"Combination floor division {index + 1}: {result}")
 
 
 
@@ -169,6 +161,3 @@ combinations = [
     (float_value_1 % float_value_2)
 ]
 
-# Printing the combinations
-for index, result in enumerate(combinations):
-    print(f"Combination modulus {index + 1}: {result}")

@@ -81,7 +81,3 @@ combinations = [
     
     (list_value + list_value)
 ]
-
-# Printing the combinations
-for index, result in enumerate(combinations):
-    print(f"Combination {index + 1}: {result}")
