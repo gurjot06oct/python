@@ -91,5 +91,5 @@ print(my_array.itemsize)  # Output: 4
 
 
 # inf and nan can also be included
-my_array = array.array('d', [1.0, 2.0, 3.14, float("-inf"), float("nan")])
+my_array = array.array('d', [1, 2.0, 3.14, float("-inf"), float("nan")])
 print(my_array)

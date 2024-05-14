@@ -91,11 +91,6 @@ combinations = [
     # (list_value_1 * list_value_2)
 ]
 
-# Printing the combinations
-for index, result in enumerate(combinations):
-    print(f"Combination {index + 1}: {result}")
-
-
 # All combinations of exponentiation operators
 combinations = [
     (int_value_1 ** int_value_2),
@@ -111,8 +106,5 @@ combinations = [
     (complex_value_1 ** complex_value_2),
 ]
 
-# Printing the combinations
-for index, result in enumerate(combinations):
-    print(f"Combination {index + 1}: {result}")
-
+print(2**3**2) # 512 not 64
 # @ Matrix Multiplication in numpy or 2d array

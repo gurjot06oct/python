@@ -58,6 +58,7 @@ hex_prefix = 255
 # Octal with prefix "0o"
 oct_prefix = 10
 
+
 # Using str.format() method
 formatted_string_1 = "Integer: {0}\nFloat: {1:.2f}\nBinary: {2:08b}\nOctal: {3:o}\nLowercase Hex: {4:x}\nUppercase Hex: {5:X}\nString: {6}\nMinimum Width: {7:>5}\nLeft Aligned: {8:<5}\nCentered: {9:^5}\nRight Aligned: {10:>10}\nCharacter: {11}\nPercent: {12:.2f}%\nRepr: {13!r}\nStr: {14!s}\nPointer: {15:#x}\nHex with Prefix: {16:#x}\nOctal with Prefix: {17:#o}".format(
     integer,
