@@ -12,7 +12,17 @@
 # Nested Modules and Packages: A module can import and use other modules or packages, making their contents accessible.
 # Special Objects and Constants: Modules might define special objects or constants specific to the domain they represent. For example, a module for mathematical operations might define mathematical constants like pi.
 
+def add(a, b):
+    return a + b
 
+def subtract(a, b):
+    return a - b
 
-def greet(name):
-    print("Hello, {}!".format(name))
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Cannot divide by zero"
