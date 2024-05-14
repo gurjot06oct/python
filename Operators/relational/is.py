@@ -6,7 +6,6 @@
 
 ### When to Use `is`
     # - Use `is` when you need to compare object identity, such as checking if two variables refer to the same instance of a class or the same list, dictionary, etc.
-    # - Use `==` when you need to compare the values of variables.
 
 
 
@@ -15,8 +14,3 @@
 x = 5
 y = 5
 print(x is y)  # True - Both variables reference the cached integer 5
-
-
-
-### Conclusion
-# The `is` operator is used to compare object identity in Python. It checks whether two variables reference the same object in memory. Understanding the difference between `is` and `==` is crucial for writing correct and efficient Python code.

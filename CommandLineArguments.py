@@ -1,5 +1,6 @@
 import sys
 
+print(sys.argv)
 # Check the length of sys.argv to ensure at least one command-line argument is provided
 if len(sys.argv) < 2:
     print("Usage: python script.py <arg1> [<arg2> ...]")
