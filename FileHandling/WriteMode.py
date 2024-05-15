@@ -4,6 +4,7 @@ file_path = "WriteMode.txt"
     # Opens a file for writing.
     # If the file already exists, its contents are truncated (i.e., deleted), and a new empty file is created.
     # If the file does not exist, a new file is created.
+    # You cannot read in this mode.
     # Use this mode when you want to write data to a file, overwriting any existing content.
 
 # Writing to a File

@@ -4,7 +4,7 @@ file_path = "ReadMode.txt"
     # Opens a file for reading.
     # The file pointer is placed at the beginning of the file.
     # Use this mode when you only need to read data from the file and do not intend to modify it.
-    # You cannot write in this mode
+    # You cannot write in this mode.
     # If file does not exist, then Error
 
 # Reading from a File

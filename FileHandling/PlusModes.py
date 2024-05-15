@@ -12,7 +12,7 @@ import os
 #    - This mode opens a file for both reading and writing.
 #    - It truncates the file to zero bytes if it exists, or creates a new file if it does not exist.
 #    - It places the file pointer at the beginning of the file.
-#    - Reading from the file is allowed, but if the file does not exist, reading operations will raise a `FileNotFoundError`.
+#    - Reading from the file is allowed.
 #    - Any data written to the file will overwrite the existing content.
 #    - It's commonly used to create a new file or to truncate an existing file and start writing from the beginning.
 #    - If you want to append data to the end of the file instead of overwriting existing content, you should use `a+` mode.
@@ -41,6 +41,9 @@ with open("example.txt", "r+") as file:
     # Seek to the end and append new content
     file.seek(0, os.SEEK_END)
     file.write("Appending new content...\n")
+
+
+
 
 # Example using w+ mode
 with open('example.txt', 'w+') as f:
