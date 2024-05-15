@@ -3,3 +3,4 @@ char_from_int = chr(65)
 
 # ord(): Returns the Unicode code point for a character
 unicode_code_point = ord('A')
+print(ord("0"))
