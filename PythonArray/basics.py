@@ -2,7 +2,7 @@ import array
 
 # Define an array with typecode 'i' (signed integers) and an initializer list
 my_array = array.array('i', [1, 2, 3, 4, 5])
-
+print(array.array('i', [1, 2, 3, 4, 5]))
 # Typecode
 print(my_array.typecode) # Output: i
 
