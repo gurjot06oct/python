@@ -105,11 +105,10 @@ print("isalnum():", is_alphanumeric)  # Output: True
 
 
 
-# isalpha(): Returns True if all characters in the string are in the alphabet
-example_string = "hello"
+# isalpha(): Returns True if all characters in the string are in the alphabet , empty string returns False
+example_string = "hsdf"
 is_alpha = example_string.isalpha()
 print("isalpha():", is_alpha)  # Output: True
-
 
 
 
