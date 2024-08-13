@@ -91,10 +91,7 @@ typecastings = [
     # No typecasting from tuple to float as float(tuple_value) is not defined
     str(tuple_value),
     # dict(tuple_value),
-    set(tuple_value),    
-    
-    
-    set(list_value),
+    set(tuple_value),   
     list(tuple_value),
     
 
